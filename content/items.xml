@@ -1,0 +1,4 @@
+<items gfxroot="gfx/items/" version="1">
+    <active id="1" cache="speed firedelay" name="Gunther's Catnip" description="Zoom Zoom Zoom!!!" maxcharges="1" quality="2" gfx="collectible_001_catnip.png"/>
+    <active id="2" name="Gunther's Silvervine" description="They just go crazy for this stuff" maxcharges="3" quality="2" gfx="collectible_002_silvervine.png"/>
+</items>
