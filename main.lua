@@ -1,15 +1,6 @@
 -- Register the mod in the API
-local mod = RegisterMod("GlueMod", 1)
-local catnipId = Isaac.GetItemIdByName("Gunther's Catnip")
-local silvervineId = Isaac.GetItemIdByName("Gunther's Silvervine")
+AlexTestMod = RegisterMod("GlueMod", 1)
 
-function mod:OnUseCatnip()
-    print("Woah you used catnip")
-end
-
-function mod:OnUseSilvervine()
-    print("Woah you used silvervine")
-end
-
-mod:AddCallback(ModCallbacks.MC_USE_ITEM, mod.OnUseCatnip, catnipId)
-mod:AddCallback(ModCallbacks.MC_USE_ITEM, mod.OnUseSilvervine, silvervineId)
+-- Active Items
+include("luascripts.gunthers_catnip")
+include("luascripts.gunthers_silvervine")
